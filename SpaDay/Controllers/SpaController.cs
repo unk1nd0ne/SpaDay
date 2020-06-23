@@ -55,6 +55,7 @@ namespace SpaDay.Controllers
                     appropriateFacials.Add(facials[i]);
                 }
             }
+            ViewBag.name = name;
             return View();
         }
 
