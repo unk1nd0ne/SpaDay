@@ -69,3 +69,35 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+
+#nail-polish {
+
+}
+
+#red-polish {
+    background-color: #FF4136;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+#blue-polish {
+    background-color: #0074D9;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+#yellow-polish {
+    background-color: #FFDC00;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+#green-polish {
+    background-color: #3D9970;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
