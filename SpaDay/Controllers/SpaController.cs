@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace SpaDay.Controllers
 {
+    [Route("Spa")]
     public class SpaController : Controller
     {
         public bool CheckSkinType(string skinType, string facialType)
@@ -33,13 +34,13 @@ namespace SpaDay.Controllers
 
         }
 
+        [HttpGet]
         public IActionResult Index()
         {
             return View();
         }
 
         [HttpPost]
-        [Route("/spa")]
         public IActionResult Menu(string name, string skintype, string manipedi)
         {
             List<string> facials = new List<string>()
