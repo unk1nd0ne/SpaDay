@@ -15,7 +15,7 @@ namespace SpaDay.Controllers
         {
             if (ViewBag.user == null)
             {
-                return Redirect("Add");
+                return Redirect("User/Add");
             }
             return View();
         }
