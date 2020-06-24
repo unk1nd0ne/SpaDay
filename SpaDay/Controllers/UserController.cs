@@ -13,6 +13,10 @@ namespace SpaDay.Controllers
         [HttpGet]
         public IActionResult Index()
         {
+            if (ViewBag.user == null)
+            {
+                return Redirect("Add");
+            }
             return View();
         }
 
