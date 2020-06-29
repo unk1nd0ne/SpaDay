@@ -39,7 +39,7 @@ namespace SpaDay.Controllers
                 };
 
                 //ViewBag.user = newUser;
-                return View("Index", addUserViewModel);
+                return View("Index", newUser);
             }
             else
             {

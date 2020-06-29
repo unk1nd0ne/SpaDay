@@ -20,7 +20,7 @@ namespace SpaDay.ViewModels
         public string Password { get; set; }
 
         [Required(ErrorMessage = "Verify password is requiered.")]
-        [Compare(nameof(Password), ErrorMessage = "Passwords do not match.")]
+        [Compare("Password", ErrorMessage = "Passwords do not match.")]
         public string VerifyPassword { get; set; }
     }
 }
